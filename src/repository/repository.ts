@@ -6,17 +6,17 @@ export class Repository {
     }
 
     public add(newItem: any) {
-        this.data = [...this.data, newItem];
+        // todo: add implementation
     }
 
     /**
      * getAll
      */
     public getAll(): any[] {
-        return this.data;
+        // todo: add implementation
     }
-    
+
     public removeItem() {
-        this.data = this.data.filter((i, idx) => idx !== 0);
+        // TODO: Add implementation
     }
 }
